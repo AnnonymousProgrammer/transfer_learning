@@ -115,8 +115,8 @@ def visualize():
 
 
 if __name__ == '__main__':
-    #if RUN_EXPERIMENT:
-    #    run_experiments(exp_run_industrial_datasets, parallel=True)
+    if RUN_EXPERIMENT:
+        run_experiments(exp_run_industrial_datasets, parallel=True)
 
     if VISUALIZE_RESULTS:
         visualize()
